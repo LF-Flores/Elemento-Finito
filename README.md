@@ -21,7 +21,7 @@ donde `nombre_de_carpeta_local` es el nombre de la carpeta donde quieren tener l
 ## Actualización
 Cuando deseen actualizar los contenidos de la carpeta, solo deben usar el siguiente comando de git en la carpeta donde clonaron:
 ```
-git pull
+git pull origin master
 ```
 
 # Descripción de contenidos
