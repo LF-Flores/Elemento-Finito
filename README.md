@@ -25,7 +25,7 @@ git pull origin master
 ```
 
 # Descripción de contenidos
-La carpeta llamada **static_notebooks** contiene archivos de extensión `.html` que podrán visualizar en su navegador con ejecutarlos (doble click) y ver el código del lenguaje Julia junto con los resultados ue produce y una descripción de lo que se hizo.
+La carpeta llamada **static_notebooks** contiene archivos de extensión `.html` que podrán visualizar en su navegador con ejecutarlos (doble click) y ver el código del lenguaje Julia junto con los resultados ue produce y una descripción de lo que se hizo. Como alternativa para visualizar los cuadernos sin descargarlos, es posible colocar el URL del archivo dentro de github en la siguiente página: https://htmlpreview.github.io/ 
 
 La carpeta **scripts** contiene los archivos con extensión `.jl` ejecutables por el lenguaje Julia para que puedan experimentar con ellos ya sea con Julia directamente o con el paquete [Pluto.jl](https://github.com/fonsp/Pluto.jl) que se utilizó para crear estos scripts.
 
@@ -34,7 +34,7 @@ La documentación de Julia es muy buena para explicar el proceso de instalación
 ```
 bash -ci "$(curl -fsSL https://raw.githubusercontent.com/abelsiqueira/jill/master/jill.sh)"
 ```
-En windows, deben pasar por el proceso completo de instalación propuesto en [su página](https://julialang.org/downloads/).
+En windows, deben pasar por el proceso completo de instalación propuesto en [la página oficial del lenguaje Julia](https://julialang.org/downloads/).
 
 # Instalación de Pluto.jl
 Una vez instalado Julia, deberían poder comenzar un proceso de Julia desde la terminal con la palabra `julia` y allí presionar la tecla `]` para comenzar el REPL (read–eval–print loop) del administrador de paquetes de Julia. Allí, basta con escribir `add Pluto` (note la mayúscula en `Pluto`) para que comience a descargarlo. De la misma manera se pueden instalar cualquier otro paquete que guste y puedan requerir los scripts.
